@@ -1,5 +1,5 @@
 import { useFonts } from 'expo-font';
-import { GluestackUIProvider, View } from '@gluestack-ui/themed';
+import { GluestackUIProvider } from '@gluestack-ui/themed';
 import { config } from './config/gluestack-ui.config';
 
 export default function App() {
