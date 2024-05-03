@@ -11,10 +11,10 @@ const Load = () => {
   return (
     <Center style={styles.load}>
       <Image
-        source={require('./../../assets/logo/white.png')}
+        source={require('./../../assets/logo/quiz.png')}
         mb='$9'
         alt='Logo de Handymoov'
-        style={{ width: 100, height: 100 }}
+        style={{ width: 100, height: 100, objectFit: 'contain' }}
       />
       <Spinner size='large' color={colors.white} />
     </Center>
